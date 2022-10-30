@@ -6,8 +6,9 @@ condNumero x
   | x == 5 = 25
   | otherwise = 0
 
+
 sumPromedio :: [Float] -> Float
-sumPromedio x = sum x / round (length x)
+sumPromedio x = sum x / round length x
 
 solveRPN :: String -> Float  
 solveRPN = head . foldl foldingFunction [] . words
