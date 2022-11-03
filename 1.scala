@@ -1,10 +1,11 @@
-object ReversePN{
+
+object ReversePN extends App{
 
     def RPN(str: String): Double = {
-        val items = srt.split(" ")
-        val stack = List[Double]()
+        val items = str.split(" ")
+        val accumulator = List[Double]()
 
-        items.foldLeft(stack)(foldingFunction).head
+        items.foldLeft(accumulator)(foldingFunction).head
     }
 
     def foldingFunction(stack: List[Double], a: String): List[Double] = stack match{
@@ -13,9 +14,10 @@ object ReversePN{
         case x::y::ys => a match{
             case "+" => x + y:: ys
             case "-"=> y - x:: ys
-            case "*" => y * s:: ys
+            case "*" => y * x:: ys
             case "/" => y / x:: ys
-            case s:: String  => s.toDouble ::stack
+            case s: String => s.toDouble :: stack
+
         } 
     }
 
