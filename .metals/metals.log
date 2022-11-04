@@ -60,3 +60,14 @@ Caused by: java.lang.InterruptedException
 2022.10.31 21:23:01 INFO  no build target found for C:\Users\Diego\Documents\Me\University\Second semester\Programming Languages\Lab 2\1.scala. Using presentation compiler with project's scala-library version: 3.2.0
 2022.10.31 21:23:09 INFO  time: code lens generation in 17s
 2022.10.31 21:23:10 INFO  shutting down Metals
+2022.11.03 07:42:07 INFO  tracing is disabled for protocol LSP, to enable tracing of incoming and outgoing JSON messages create an empty file at c:\Users\Diego\Documents\Me\University\Second semester\Programming Languages\Lab 2\.metals\lsp.trace.json or C:\Users\Diego\AppData\Local\scalameta\metals\cache\lsp.trace.json
+2022.11.03 07:42:08 INFO  logging to file C:\Users\Diego\Documents\Me\University\Second semester\Programming Languages\Lab 2\.metals\metals.log
+2022.11.03 07:42:08 INFO  Started: Metals version 0.11.9 in workspace 'C:\Users\Diego\Documents\Me\University\Second semester\Programming Languages\Lab 2' for client Visual Studio Code 1.73.0.
+2022.11.03 07:42:11 INFO  time: initialize in 3.1s
+2022.11.03 07:42:12 WARN  Build server is not auto-connectable.
+2022.11.03 07:42:12 WARN  no build tool detected in workspace 'C:\Users\Diego\Documents\Me\University\Second semester\Programming Languages\Lab 2'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2022.11.03 07:42:12 WARN  no build target for: C:\Users\Diego\Documents\Me\University\Second semester\Programming Languages\Lab 2\1.scala
+2022.11.03 07:42:19 INFO  no build target found for C:\Users\Diego\Documents\Me\University\Second semester\Programming Languages\Lab 2\1.scala. Using presentation compiler with project's scala-library version: 3.2.0
+2022.11.03 07:42:26 INFO  time: code lens generation in 13s
+2022.11.03 07:42:26 INFO  time: code lens generation in 4.02s
+2022.11.03 07:42:30 INFO  shutting down Metals

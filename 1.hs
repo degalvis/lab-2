@@ -17,8 +17,11 @@ solveRPN = head . foldl foldingFunction [] . words
           foldingFunction (x:xs) "condNumero" = (condNumero x):xs
           foldingFunction xs "sumaTotal" = [sum xs]
           foldingFunction xs "producto" = [product xs]
-          foldingFunction (x:xs) "promedio" = (sum xs / fromIntegral (length xs)) :xs
+          foldingFunction xs "promedio" = (sum xs / fromIntegral (length xs)) :xs
           foldingFunction xs numberString = read numberString:xs
 
-main :: IO()
-main = return ()
+main = do
+  print(solveRPN "1 2 3 4 5 promedio")
+  print(solveRPN "2 2 + sqrt")
+  print(solveRPN "1 2 3 4 5 producto")
+  print(solveRPN "5 8 + 14 - neg1")
