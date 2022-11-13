@@ -58,6 +58,7 @@ object Main {
            }
            pila.push(resultado.toString)
       case "producto"=>
+               resultado = 1 
            while(!pila.isEmpty){
              a=pila.pop().toInt
              resultado *= a
